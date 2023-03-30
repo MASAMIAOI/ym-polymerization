@@ -1,3 +1,3 @@
 # ym-polymerization
 
-> springboot 集合工程示例
+> springboot 聚合工程示例

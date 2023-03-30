@@ -1,0 +1,33 @@
+@localIp=http://127.0.0.1:8080
+
+
+# 这个是本工程的测试 http 类, 使用 restclient 插件
+
+###
+# 查询
+# @name list
+GET {{localIp}}/user/list
+Content-Type: application/json
+
+{
+
+}
+
+
+
+###
+# 查询集合
+# @name queryList
+GET {{localIp}}/user/queryList
+
+
+
+###
+# post 模拟
+# @name test
+POST {{localIp}}/user/test
+Content-Type: application/json
+
+{
+
+}

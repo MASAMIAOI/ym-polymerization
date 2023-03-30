@@ -10,6 +10,8 @@
     </parent>
 
     <artifactId>ym-dao</artifactId>
+    <packaging>jar</packaging>
+    <description>dao层</description>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -25,15 +27,5 @@
         </dependency>
     </dependencies>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration>
-                    <classifier>exec</classifier>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
+
 </project>
